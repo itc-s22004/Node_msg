@@ -9,7 +9,7 @@ services:
       - data:/var/lib/postgresql/data
   adminer:
     image: adminer
-    posts:
+    ports:
       - "8888:8080"
 volumes:
   data:
